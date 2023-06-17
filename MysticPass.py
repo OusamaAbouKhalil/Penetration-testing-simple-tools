@@ -1,4 +1,3 @@
-#generate possiple million password from the victim information and save it in a file
 
 import itertools
 import string
