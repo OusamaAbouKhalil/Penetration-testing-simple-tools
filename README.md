@@ -38,7 +38,7 @@ To install and use these tools, follow the steps below:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Penetration-testing-simple-tools.git
+   git clone https://github.com/OusamaAbouKhalil/Penetration-testing-simple-tools
    ```
 
 2. Navigate to the specific tool directory:
